@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BlushApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QF8-Ry-1hs" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
+                                <rect key="frame" x="20" y="70" width="335" height="547"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4Q-JL-p8m" customClass="OnBoardingButton" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="67" y="357" width="200" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="1Q2-dW-6ug"/>
+                                            <constraint firstAttribute="width" constant="200" id="MVG-rQ-Gzq"/>
+                                        </constraints>
+                                        <state key="normal" title="Get Started"/>
+                                        <connections>
+                                            <segue destination="PMy-2C-Ees" kind="show" id="PHe-ra-6Fq"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Blush!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFB-Do-a6r" customClass="allLabels" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="96" y="150" width="143" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="FFB-Do-a6r" firstAttribute="top" secondItem="QF8-Ry-1hs" secondAttribute="top" constant="150" id="1h3-w6-hYd"/>
+                                    <constraint firstItem="Y4Q-JL-p8m" firstAttribute="centerX" secondItem="QF8-Ry-1hs" secondAttribute="centerX" id="AKj-AI-uuS"/>
+                                    <constraint firstItem="FFB-Do-a6r" firstAttribute="centerX" secondItem="QF8-Ry-1hs" secondAttribute="centerX" id="hkC-rJ-g85"/>
+                                    <constraint firstAttribute="bottom" secondItem="Y4Q-JL-p8m" secondAttribute="bottom" constant="150" id="tug-qg-0C8"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QF8-Ry-1hs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="RPI-qE-zse"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QF8-Ry-1hs" secondAttribute="trailing" constant="20" id="aFJ-JC-1Xy"/>
+                            <constraint firstItem="QF8-Ry-1hs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="pk5-ck-j8v"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QF8-Ry-1hs" secondAttribute="bottom" constant="50" id="t4u-Lv-E97"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-175" y="104"/>
+        </scene>
+        <!--Time Picker View Controller-->
+        <scene sceneID="SiZ-gP-tuC">
+            <objects>
+                <viewController id="PMy-2C-Ees" customClass="timePickerViewController" customModule="BlushApp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q57-e4-nZg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hvY-yO-IA7" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
+                                <rect key="frame" x="20" y="70" width="335" height="547"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What time would you like to be reminded at?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3f-vV-Wiy" customClass="allLabels" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="150" width="295" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPW-NF-FuL" customClass="OnBoardingButton" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="67.5" y="357" width="200" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="8TJ-UG-1Ae"/>
+                                            <constraint firstAttribute="width" constant="200" id="gMF-58-ge7"/>
+                                        </constraints>
+                                        <state key="normal" title="Next"/>
+                                        <connections>
+                                            <action selector="onTimeNextClicked:" destination="PMy-2C-Ees" eventType="touchUpInside" id="l5r-Wo-YlP"/>
+                                            <segue destination="v64-PS-jUq" kind="show" id="dJD-sl-TjP"/>
+                                        </connections>
+                                    </button>
+                                    <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="B2d-Df-Jmr">
+                                        <rect key="frame" x="20" y="196" width="295" height="155"/>
+                                        <date key="date" timeIntervalSinceReferenceDate="553839252.95619905">
+                                            <!--2018-07-21 04:14:12 +0000-->
+                                        </date>
+                                        <connections>
+                                            <action selector="onTimePickerSelected:" destination="PMy-2C-Ees" eventType="valueChanged" id="PVg-Vq-ZcD"/>
+                                        </connections>
+                                    </datePicker>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="B2d-Df-Jmr" firstAttribute="centerY" secondItem="hvY-yO-IA7" secondAttribute="centerY" id="0Dl-Ip-7ve"/>
+                                    <constraint firstItem="Q3f-vV-Wiy" firstAttribute="centerX" secondItem="hvY-yO-IA7" secondAttribute="centerX" id="1oV-um-Sju"/>
+                                    <constraint firstAttribute="bottom" secondItem="MPW-NF-FuL" secondAttribute="bottom" constant="150" id="30V-Fl-GLZ"/>
+                                    <constraint firstItem="B2d-Df-Jmr" firstAttribute="leading" secondItem="hvY-yO-IA7" secondAttribute="leading" constant="20" id="7Ri-eZ-9xH"/>
+                                    <constraint firstItem="B2d-Df-Jmr" firstAttribute="centerX" secondItem="hvY-yO-IA7" secondAttribute="centerX" id="bDc-yA-P3K"/>
+                                    <constraint firstItem="B2d-Df-Jmr" firstAttribute="centerX" secondItem="hvY-yO-IA7" secondAttribute="centerX" id="f4e-ND-dIl"/>
+                                    <constraint firstItem="Q3f-vV-Wiy" firstAttribute="leading" secondItem="hvY-yO-IA7" secondAttribute="leading" constant="20" id="lCR-Bu-nv2"/>
+                                    <constraint firstItem="Q3f-vV-Wiy" firstAttribute="top" secondItem="hvY-yO-IA7" secondAttribute="top" constant="150" id="q9Q-0X-vHw"/>
+                                    <constraint firstItem="MPW-NF-FuL" firstAttribute="centerX" secondItem="hvY-yO-IA7" secondAttribute="centerX" id="ryu-sr-31w"/>
+                                    <constraint firstAttribute="trailing" secondItem="B2d-Df-Jmr" secondAttribute="trailing" constant="20" id="scd-sZ-mks"/>
+                                    <constraint firstAttribute="trailing" secondItem="Q3f-vV-Wiy" secondAttribute="trailing" constant="20" id="vvG-uK-W21"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Mlk-TX-RxD" firstAttribute="bottom" secondItem="hvY-yO-IA7" secondAttribute="bottom" constant="50" id="Dt4-TK-ti7"/>
+                            <constraint firstItem="hvY-yO-IA7" firstAttribute="top" secondItem="Mlk-TX-RxD" secondAttribute="top" constant="50" id="Pvk-8H-6lU"/>
+                            <constraint firstItem="Mlk-TX-RxD" firstAttribute="trailing" secondItem="hvY-yO-IA7" secondAttribute="trailing" constant="20" id="TKG-oH-SQ2"/>
+                            <constraint firstItem="hvY-yO-IA7" firstAttribute="leading" secondItem="Mlk-TX-RxD" secondAttribute="leading" constant="20" id="ogG-f6-5gT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Mlk-TX-RxD"/>
+                    </view>
+                    <connections>
+                        <outlet property="timePicker" destination="B2d-Df-Jmr" id="f4m-z4-XUn"/>
+                        <outlet property="timePickerLabel" destination="Q3f-vV-Wiy" id="NI8-KL-dAO"/>
+                        <outlet property="timePickerNextButton" destination="MPW-NF-FuL" id="Nnv-dO-A0e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZEv-Kw-thG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="821.60000000000002" y="103.89805097451276"/>
+        </scene>
+        <!--Day Picker View Controller-->
+        <scene sceneID="CLy-Wq-Xrz">
+            <objects>
+                <viewController id="v64-PS-jUq" customClass="dayPickerViewController" customModule="BlushApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LR8-WP-JfR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hVu-Dl-YzU" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
+                                <rect key="frame" x="20" y="70" width="335" height="547"/>
+                                <subviews>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2VB-T1-b05">
+                                        <rect key="frame" x="20" y="165" width="295" height="216"/>
+                                    </pickerView>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6B-5a-4cX" customClass="OnBoardingButton" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="67.5" y="457" width="200" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="JcX-ZB-cfP"/>
+                                            <constraint firstAttribute="height" constant="40" id="VTJ-XX-pff"/>
+                                        </constraints>
+                                        <state key="normal" title="Finish"/>
+                                        <connections>
+                                            <action selector="onClickPickDayButton:" destination="v64-PS-jUq" eventType="touchUpInside" id="SvL-Pq-AZY"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many pills have you already taken?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vd0-Pp-N3L" customClass="allLabels" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="16.5" y="50" width="302.5" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="mgh-Ha-rGK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="vd0-Pp-N3L" firstAttribute="centerX" secondItem="hVu-Dl-YzU" secondAttribute="centerX" id="JFx-Kr-Z2x"/>
+                                    <constraint firstItem="vd0-Pp-N3L" firstAttribute="top" secondItem="hVu-Dl-YzU" secondAttribute="top" constant="50" id="MH8-L9-oRX"/>
+                                    <constraint firstAttribute="trailing" secondItem="2VB-T1-b05" secondAttribute="trailing" constant="20" id="MdH-qK-qbv"/>
+                                    <constraint firstItem="2VB-T1-b05" firstAttribute="centerY" secondItem="hVu-Dl-YzU" secondAttribute="centerY" id="c3b-vW-rbP"/>
+                                    <constraint firstAttribute="bottom" secondItem="K6B-5a-4cX" secondAttribute="bottom" constant="50" id="c3g-dq-OFL"/>
+                                    <constraint firstItem="K6B-5a-4cX" firstAttribute="centerX" secondItem="hVu-Dl-YzU" secondAttribute="centerX" id="ixz-Lg-P1W"/>
+                                    <constraint firstItem="2VB-T1-b05" firstAttribute="centerX" secondItem="hVu-Dl-YzU" secondAttribute="centerX" id="qRc-3Q-DdW"/>
+                                    <constraint firstItem="2VB-T1-b05" firstAttribute="leading" secondItem="hVu-Dl-YzU" secondAttribute="leading" constant="20" id="sV9-Mb-4DO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hVu-Dl-YzU" firstAttribute="top" secondItem="3fQ-ai-mAU" secondAttribute="top" constant="50" id="PDW-80-dXj"/>
+                            <constraint firstItem="hVu-Dl-YzU" firstAttribute="centerX" secondItem="LR8-WP-JfR" secondAttribute="centerX" id="Xf0-DQ-i9Q"/>
+                            <constraint firstItem="3fQ-ai-mAU" firstAttribute="trailing" secondItem="hVu-Dl-YzU" secondAttribute="trailing" constant="20" id="XhI-9y-FQU"/>
+                            <constraint firstItem="hVu-Dl-YzU" firstAttribute="leading" secondItem="3fQ-ai-mAU" secondAttribute="leading" constant="20" id="aYI-wC-TjQ"/>
+                            <constraint firstItem="3fQ-ai-mAU" firstAttribute="bottom" secondItem="hVu-Dl-YzU" secondAttribute="bottom" constant="50" id="wtx-KH-gXj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3fQ-ai-mAU"/>
+                    </view>
+                    <connections>
+                        <outlet property="PickDayButton" destination="K6B-5a-4cX" id="rrs-Ds-iA8"/>
+                        <outlet property="PickDayLabel" destination="vd0-Pp-N3L" id="KSz-JU-Hz2"/>
+                        <outlet property="dayPicker" destination="2VB-T1-b05" id="Etb-PK-6ht"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SVN-BW-u2I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1671" y="104"/>
+        </scene>
+    </scenes>
+</document>
