@@ -1,5 +1,5 @@
 //
-//  timePickerViewController.swift
+//  TimePickerViewController.swift
 //  BlushApp
 //
 //  Created by Dorothy Fu on 2018-07-21.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class timePickerViewController: UIViewController {
+class TimePickerViewController: UIViewController {
     var hour = -1
     var minute = -1
 

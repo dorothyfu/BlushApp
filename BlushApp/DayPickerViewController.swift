@@ -1,5 +1,5 @@
 //
-//  dayPickerViewController.swift
+//  DayPickerViewController.swift
 //  BlushApp
 //
 //  Created by Dorothy Fu on 2018-07-21.
@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import UserNotifications
 
-class dayPickerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class DayPickerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     var pickedDaysString = "-1"
 
 
@@ -18,12 +19,19 @@ class dayPickerViewController: UIViewController, UIPickerViewDelegate, UIPickerV
     
     @IBAction func onClickPickDayButton(_ sender: Any) {
         let pickedDaysStringToInt:Int? = Int(pickedDaysString)
-        UserDefaults.standard.setPassedDays(value: pickedDaysStringToInt!)
-        print(String(UserDefaults.standard.getPassedDays()))
+        UserDefaults.standard.setCurrentDay(value: pickedDaysStringToInt!)
+        print(String(UserDefaults.standard.getCurrentDay()))
+        
+        let notificationSettings = UIUserNotificationSettings(
+            types: [.badge, .sound, .alert], categories: nil)
+        
+        UIApplication.shared.registerUserNotificationSettings(notificationSettings)
+        
+        scheduleNotification()
     }
 
     // PickerView set up
-    let pickerData = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12","13", "14", "15", "16", "17", "18", "19", "20", "21"]
+    let pickerData = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12","13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28"]
 
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1

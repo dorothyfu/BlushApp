@@ -10,8 +10,26 @@ import UIKit
 
 class allLabels: UILabel {
     override func awakeFromNib() {
-        let labelFont = "Avenir"
+        let labelFont = "SanFrancisco"
         self.font = UIFont(name: labelFont, size: 16)
+    }
+}
+
+class homeLabel: UILabel {
+    override func awakeFromNib() {
+        self.textColor = .white
+        self.font = UIFont(name: "SanFrancisco", size: 30.0)
+    }
+}
+
+class allNavBars: UINavigationBar {
+    override func awakeFromNib() {
+        let color = UIColor(red: 242.0/255.0, green: 211.0/255.0, blue: 197.0/255.0, alpha: 1)
+        self.barTintColor = UIColor.white
+        self.titleTextAttributes = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 16.0) ]
+        self.titleTextAttributes = [NSAttributedStringKey.foregroundColor: color]
+        self.isTranslucent = true
+        self.backgroundColor = .clear
     }
 }
 
@@ -41,7 +59,7 @@ class OnBoardingButton: UIButton {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        let btnFont = "Avenir"
+        let btnFont = "SanFrancisco"
         let btnWidth = 200
         let btnHeight = 40
         
@@ -55,6 +73,19 @@ class OnBoardingButton: UIButton {
     }
 }
 
+class GradientView: UIView {
+    override open class var layerClass: AnyClass {
+        return CAGradientLayer.classForCoder()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        let gradientLayer = layer as! CAGradientLayer
+        gradientLayer.colors = [UIColor.white.cgColor, UIColor.black.cgColor]
+    }
+}
+
 struct GlobalUIVariables {
     static var backgroundColorPink = UIColor(red: 240.0/255.0, green: 178.0/255.0, blue: 173.0/255.0, alpha: 1)
+    static var pinkThree = UIColor(red: 242.0/255.0, green: 211.0/255.0, blue: 197.0/255.0, alpha: 1)
 }

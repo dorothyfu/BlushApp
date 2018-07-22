@@ -11,7 +11,7 @@ import Foundation
 enum UserDefaultKeys: String {
     case notifyHour
     case notifyMinute
-    case passedDays
+    case currentDay
 }
 
 extension UserDefaults {
@@ -31,12 +31,12 @@ extension UserDefaults {
         return integer(forKey: UserDefaultKeys.notifyMinute.rawValue)
     }
     
-    func setPassedDays(value: Int) {
-        set(value, forKey: UserDefaultKeys.passedDays.rawValue)
+    func setCurrentDay(value: Int) {
+        set(value, forKey: UserDefaultKeys.currentDay.rawValue)
     }
     
-    func getPassedDays() -> Int {
-        return integer(forKey: UserDefaultKeys.passedDays.rawValue)
+    func getCurrentDay() -> Int {
+        return integer(forKey: UserDefaultKeys.currentDay.rawValue)
     }
 }
 
