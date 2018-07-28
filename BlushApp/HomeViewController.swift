@@ -1,5 +1,5 @@
 //
-//  homeViewController.swift
+//  HomeViewController.swift
 //  BlushApp
 //
 //  Created by Dorothy Fu on 2018-07-22.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class homeViewController: UIViewController {
+class HomeViewController: UIViewController {
     @IBOutlet weak var numDayLabel: UILabel!
     @IBOutlet weak var dayLabel: UILabel!
     @IBOutlet weak var pillsLeftLabel: allLabels!

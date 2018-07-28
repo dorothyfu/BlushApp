@@ -22,12 +22,14 @@ class DayPickerViewController: UIViewController, UIPickerViewDelegate, UIPickerV
         UserDefaults.standard.setCurrentDay(value: pickedDaysStringToInt!)
         print(String(UserDefaults.standard.getCurrentDay()))
         
+        // Set up notifications
         let notificationSettings = UIUserNotificationSettings(
             types: [.badge, .sound, .alert], categories: nil)
-        
         UIApplication.shared.registerUserNotificationSettings(notificationSettings)
-        
         scheduleNotification()
+        
+        UserDefaults.didPassOnboarding()
+        UserDefaults.standard.synchronize()
     }
 
     // PickerView set up

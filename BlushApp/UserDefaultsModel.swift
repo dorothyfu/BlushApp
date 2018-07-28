@@ -12,9 +12,31 @@ enum UserDefaultKeys: String {
     case notifyHour
     case notifyMinute
     case currentDay
+    case hasBeenLaunchedBeforeFlag
 }
 
 extension UserDefaults {
+    fileprivate class func boolForKey(key: String) -> Bool {
+        return UserDefaults.standard.bool(forKey: key)
+    }
+    
+    fileprivate class func setValue(value: Bool, key: String) {
+        UserDefaults.standard.set(value, forKey: key)
+        UserDefaults.standard.synchronize()
+    }
+}
+
+extension UserDefaults {
+    private static let didPassOnboardingKey = "didPassOnboarding"
+    
+    class func hasPassedOnboarding() -> Bool {
+        return UserDefaults.boolForKey(key: UserDefaults.didPassOnboardingKey)
+    }
+    
+    class func didPassOnboarding() {
+        UserDefaults.setValue(value: true, key: UserDefaults.didPassOnboardingKey)
+    }
+    
     func setNotifyHour(value: Int) {
         set(value, forKey: UserDefaultKeys.notifyHour.rawValue)
     }

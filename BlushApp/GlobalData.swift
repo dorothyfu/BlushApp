@@ -15,6 +15,14 @@ class allLabels: UILabel {
     }
 }
 
+class whiteLabelLarge: UILabel {
+    override func awakeFromNib() {
+        let labelFont = "SanFranciscoBold"
+        self.font = UIFont(name: labelFont, size: 25)
+        self.textColor = .white
+    }
+}
+
 class homeLabel: UILabel {
     override func awakeFromNib() {
         self.textColor = .white
@@ -79,9 +87,11 @@ class GradientView: UIView {
     }
     
     required init?(coder aDecoder: NSCoder) {
+        let darkColor = UIColor(red: 240.0/255.0, green: 178.0/255.0, blue: 173.0/255.0, alpha: 1)
+        let lightColor = UIColor(red: 244.0/255.0, green: 228.0/255.0, blue: 208.0/255.0, alpha: 1)
         super.init(coder: aDecoder)
         let gradientLayer = layer as! CAGradientLayer
-        gradientLayer.colors = [UIColor.white.cgColor, UIColor.black.cgColor]
+        gradientLayer.colors = [darkColor.cgColor, lightColor.cgColor]
     }
 }
 

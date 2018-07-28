@@ -10,14 +10,39 @@ import UIKit
 import UserNotifications
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
+    fileprivate var welcomeViewController: WelcomeViewController? = nil
+    fileprivate var homeViewController: HomeViewController?
+    
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        //return true
+        
+        //welcomeViewController = WelcomeViewController()
+    
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let welcomeViewController = storyboard.instantiateViewController(withIdentifier: "WelcomeViewController") as! WelcomeViewController
+//
+        if UserDefaults.hasPassedOnboarding() != true {
+//            if let welcomeViewController = self.welcomeViewController {
+//                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//                       let welcomeViewController = storyboard.instantiateViewController(withIdentifier: "WelcomeViewController") as! WelcomeViewController
+//                self.window?.rootViewController = welcomeViewController
+//                self.window?.makeKeyAndVisible()
+//            }
+            var welcomeViewController = self.welcomeViewController
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            welcomeViewController = storyboard.instantiateViewController(withIdentifier: "WelcomeViewController") as! WelcomeViewController
+            self.window?.rootViewController = welcomeViewController
+            self.window?.makeKeyAndVisible()
+        } else {
+            if let homeViewController = self.homeViewController {
+                self.window?.rootViewController = homeViewController
+                self.window?.makeKeyAndVisible()
+            }
+        }
+        
         return true
     }
     
