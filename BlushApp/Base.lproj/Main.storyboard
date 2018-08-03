@@ -125,17 +125,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hvY-yO-IA7" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
-                                <rect key="frame" x="20" y="70" width="335" height="547"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hvY-yO-IA7" customClass="GradientView" customModule="BlushApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What time would you like to be reminded at?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3f-vV-Wiy" customClass="allLabels" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="50" width="295" height="41"/>
+                                        <rect key="frame" x="20" y="50" width="335" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPW-NF-FuL" customClass="OnBoardingButton" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="67.5" y="457" width="200" height="40"/>
+                                        <rect key="frame" x="87.5" y="577" width="200" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="8TJ-UG-1Ae"/>
                                             <constraint firstAttribute="width" constant="200" id="gMF-58-ge7"/>
@@ -146,8 +146,8 @@
                                             <segue destination="v64-PS-jUq" kind="show" id="RWO-tb-Rln"/>
                                         </connections>
                                     </button>
-                                    <datePicker contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="B2d-Df-Jmr">
-                                        <rect key="frame" x="20" y="196" width="295" height="155"/>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="B2d-Df-Jmr">
+                                        <rect key="frame" x="20" y="225.5" width="335" height="216"/>
                                         <date key="date" timeIntervalSinceReferenceDate="553839252.95619905">
                                             <!--2018-07-21 04:14:12 +0000-->
                                         </date>
@@ -173,10 +173,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Mlk-TX-RxD" firstAttribute="bottom" secondItem="hvY-yO-IA7" secondAttribute="bottom" constant="50" id="Dt4-TK-ti7"/>
-                            <constraint firstItem="hvY-yO-IA7" firstAttribute="top" secondItem="Mlk-TX-RxD" secondAttribute="top" constant="50" id="Pvk-8H-6lU"/>
-                            <constraint firstItem="Mlk-TX-RxD" firstAttribute="trailing" secondItem="hvY-yO-IA7" secondAttribute="trailing" constant="20" id="TKG-oH-SQ2"/>
-                            <constraint firstItem="hvY-yO-IA7" firstAttribute="leading" secondItem="Mlk-TX-RxD" secondAttribute="leading" constant="20" id="ogG-f6-5gT"/>
+                            <constraint firstAttribute="bottom" secondItem="hvY-yO-IA7" secondAttribute="bottom" id="NcG-Ga-RoB"/>
+                            <constraint firstItem="hvY-yO-IA7" firstAttribute="leading" secondItem="Q57-e4-nZg" secondAttribute="leading" id="oGT-Qw-oWp"/>
+                            <constraint firstAttribute="trailing" secondItem="hvY-yO-IA7" secondAttribute="trailing" id="sBj-QT-kCZ"/>
+                            <constraint firstItem="hvY-yO-IA7" firstAttribute="top" secondItem="Q57-e4-nZg" secondAttribute="top" id="xd6-Cj-rQT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Mlk-TX-RxD"/>
                     </view>
@@ -198,14 +198,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hVu-Dl-YzU" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
-                                <rect key="frame" x="20" y="70" width="335" height="547"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hVu-Dl-YzU" customClass="GradientView" customModule="BlushApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2VB-T1-b05">
-                                        <rect key="frame" x="20" y="165" width="295" height="216"/>
+                                        <rect key="frame" x="20" y="225" width="335" height="216"/>
                                     </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6B-5a-4cX" customClass="OnBoardingButton" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="67.5" y="457" width="200" height="40"/>
+                                        <rect key="frame" x="87.5" y="577" width="200" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="JcX-ZB-cfP"/>
                                             <constraint firstAttribute="height" constant="40" id="VTJ-XX-pff"/>
@@ -217,7 +217,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which day is it today?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vd0-Pp-N3L" customClass="allLabels" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="84.5" y="50" width="167" height="40"/>
+                                        <rect key="frame" x="104.5" y="50" width="167" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="mgh-Ha-rGK"/>
                                         </constraints>
@@ -241,11 +241,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="hVu-Dl-YzU" firstAttribute="top" secondItem="3fQ-ai-mAU" secondAttribute="top" constant="50" id="PDW-80-dXj"/>
-                            <constraint firstItem="hVu-Dl-YzU" firstAttribute="centerX" secondItem="LR8-WP-JfR" secondAttribute="centerX" id="Xf0-DQ-i9Q"/>
-                            <constraint firstItem="3fQ-ai-mAU" firstAttribute="trailing" secondItem="hVu-Dl-YzU" secondAttribute="trailing" constant="20" id="XhI-9y-FQU"/>
-                            <constraint firstItem="hVu-Dl-YzU" firstAttribute="leading" secondItem="3fQ-ai-mAU" secondAttribute="leading" constant="20" id="aYI-wC-TjQ"/>
-                            <constraint firstItem="3fQ-ai-mAU" firstAttribute="bottom" secondItem="hVu-Dl-YzU" secondAttribute="bottom" constant="50" id="wtx-KH-gXj"/>
+                            <constraint firstItem="hVu-Dl-YzU" firstAttribute="leading" secondItem="LR8-WP-JfR" secondAttribute="leading" id="2hf-9x-Qjk"/>
+                            <constraint firstItem="hVu-Dl-YzU" firstAttribute="top" secondItem="LR8-WP-JfR" secondAttribute="top" id="6db-8m-y9h"/>
+                            <constraint firstAttribute="bottom" secondItem="hVu-Dl-YzU" secondAttribute="bottom" id="MgP-Ik-tzB"/>
+                            <constraint firstAttribute="trailing" secondItem="hVu-Dl-YzU" secondAttribute="trailing" id="eh9-5o-ogE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3fQ-ai-mAU"/>
                     </view>
@@ -267,66 +266,130 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3k8-25-h7a" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                <rect key="frame" x="158" y="172" width="58" height="51"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SCE-UH-nhI" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
+                                <rect key="frame" x="67" y="147" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pills Left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u4R-d1-wif" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                <rect key="frame" x="52" y="248" width="271" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYR-fL-oYy" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="99" y="8" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOB-0l-hUf" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="99" y="76" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yWk-Gs-zex" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
+                                <rect key="frame" x="67" y="389" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VeX-hD-AD9" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                <rect key="frame" x="166" y="415" width="43" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uDl-3W-0k3" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                <rect key="frame" x="179" y="496" width="19" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zmj-CC-rzB">
-                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="BLUSH" id="xDq-Ph-nvw">
-                                        <barButtonItem key="backBarButtonItem" title="Settings" id="LKI-oa-BdT"/>
-                                        <barButtonItem key="leftBarButtonItem" title="Settings" id="eIV-ZI-Hh5">
-                                            <connections>
-                                                <segue destination="PMy-2C-Ees" kind="show" id="EKW-pJ-hT7"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kr-Jc-31M" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="99" y="22" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0LP-FE-MGh" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="99" y="82" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="h0t-vW-lto"/>
                     </view>
                     <connections>
-                        <outlet property="dayLabel" destination="VeX-hD-AD9" id="HVI-Ii-qri"/>
-                        <outlet property="homeNavBar" destination="Zmj-CC-rzB" id="Orh-fi-oUV"/>
-                        <outlet property="numDayLabel" destination="uDl-3W-0k3" id="zlw-OD-iaO"/>
-                        <outlet property="numPillsLeftLabel" destination="3k8-25-h7a" id="ul7-pE-rfj"/>
-                        <outlet property="pillsLeftLabel" destination="u4R-d1-wif" id="GqG-A4-rsG"/>
+                        <outlet property="dayLabel" destination="JOB-0l-hUf" id="ZVR-0l-OV5"/>
+                        <outlet property="numDayLabel" destination="KYR-fL-oYy" id="ISe-av-Jll"/>
+                        <outlet property="numPillsLeftLabel" destination="0LP-FE-MGh" id="3pX-3A-m8S"/>
+                        <outlet property="pillsLeftLabel" destination="4kr-Jc-31M" id="Uhn-lF-e8s"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Rq-Hq-GXA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1670" y="-1067"/>
+            <point key="canvasLocation" x="1669.5999999999999" y="-1067.3163418290856"/>
+        </scene>
+        <!--SampleViewController-->
+        <scene sceneID="pDw-8u-kEv">
+            <objects>
+                <viewController id="gnf-7q-dNe" userLabel="SampleViewController" customClass="DayPickerViewController" customModule="BlushApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b2q-02-gLp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lFI-vH-jtU" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
+                                <rect key="frame" x="20" y="70" width="335" height="547"/>
+                                <subviews>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ef4-Cn-LOQ">
+                                        <rect key="frame" x="20" y="165" width="295" height="216"/>
+                                    </pickerView>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPs-zg-FJ5" customClass="OnBoardingButton" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="67.5" y="457" width="200" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="IZ6-jo-0vM"/>
+                                            <constraint firstAttribute="height" constant="40" id="M4f-4x-4cM"/>
+                                        </constraints>
+                                        <state key="normal" title="Finish"/>
+                                        <connections>
+                                            <action selector="onClickPickDayButton:" destination="gnf-7q-dNe" eventType="touchUpInside" id="xtQ-d6-aIM"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which day is it today?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKX-pc-FtB" customClass="allLabels" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="84.5" y="50" width="167" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="lLU-vL-acJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="aPs-zg-FJ5" secondAttribute="bottom" constant="50" id="0uZ-jT-Wu2"/>
+                                    <constraint firstItem="ef4-Cn-LOQ" firstAttribute="centerY" secondItem="lFI-vH-jtU" secondAttribute="centerY" id="7ed-5M-SQr"/>
+                                    <constraint firstItem="gKX-pc-FtB" firstAttribute="centerX" secondItem="lFI-vH-jtU" secondAttribute="centerX" id="Bha-m4-MWd"/>
+                                    <constraint firstItem="ef4-Cn-LOQ" firstAttribute="centerX" secondItem="lFI-vH-jtU" secondAttribute="centerX" id="Eds-Ao-2pA"/>
+                                    <constraint firstItem="gKX-pc-FtB" firstAttribute="top" secondItem="lFI-vH-jtU" secondAttribute="top" constant="50" id="HTJ-IR-ROZ"/>
+                                    <constraint firstItem="aPs-zg-FJ5" firstAttribute="centerX" secondItem="lFI-vH-jtU" secondAttribute="centerX" id="aMl-c8-Rza"/>
+                                    <constraint firstItem="ef4-Cn-LOQ" firstAttribute="leading" secondItem="lFI-vH-jtU" secondAttribute="leading" constant="20" id="hN4-um-7Ba"/>
+                                    <constraint firstAttribute="trailing" secondItem="ef4-Cn-LOQ" secondAttribute="trailing" constant="20" id="vrD-yW-CkM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gMl-Ox-Y7C" firstAttribute="bottom" secondItem="lFI-vH-jtU" secondAttribute="bottom" constant="50" id="aSJ-UM-zI7"/>
+                            <constraint firstItem="lFI-vH-jtU" firstAttribute="top" secondItem="gMl-Ox-Y7C" secondAttribute="top" constant="50" id="bPL-Ps-GTO"/>
+                            <constraint firstItem="lFI-vH-jtU" firstAttribute="leading" secondItem="gMl-Ox-Y7C" secondAttribute="leading" constant="20" id="dxq-j4-R14"/>
+                            <constraint firstItem="gMl-Ox-Y7C" firstAttribute="trailing" secondItem="lFI-vH-jtU" secondAttribute="trailing" constant="20" id="hDp-jx-vUb"/>
+                            <constraint firstItem="lFI-vH-jtU" firstAttribute="centerX" secondItem="b2q-02-gLp" secondAttribute="centerX" id="jm2-kt-a0F"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gMl-Ox-Y7C"/>
+                    </view>
+                    <connections>
+                        <outlet property="PickDayButton" destination="aPs-zg-FJ5" id="fAK-D0-NXY"/>
+                        <outlet property="PickDayLabel" destination="gKX-pc-FtB" id="9cQ-gO-xo7"/>
+                        <outlet property="dayPicker" destination="ef4-Cn-LOQ" id="cB1-LS-1x9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Zc-Ei-C1C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2540" y="136"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="EKW-pJ-hT7"/>
-    </inferredMetricsTieBreakers>
 </document>

@@ -1,5 +1,5 @@
 //
-//  UserDefaultsModel.swift
+//  UserDefaultsManager.swift
 //  BlushApp
 //
 //  Created by Dorothy Fu on 2018-07-21.

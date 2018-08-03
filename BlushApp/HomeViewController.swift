@@ -9,13 +9,12 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+
+ 
     @IBOutlet weak var numDayLabel: UILabel!
     @IBOutlet weak var dayLabel: UILabel!
-    @IBOutlet weak var pillsLeftLabel: allLabels!
-    @IBOutlet weak var numPillsLeftLabel: allLabels!
-    
-    @IBOutlet weak var homeNavBar: UINavigationBar!
-    
+    @IBOutlet weak var pillsLeftLabel: UILabel!
+    @IBOutlet weak var numPillsLeftLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()

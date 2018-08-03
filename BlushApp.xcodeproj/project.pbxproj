@@ -14,7 +14,7 @@
 		8443D34F2102E4DA00EAAEE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8443D34D2102E4DA00EAAEE6 /* LaunchScreen.storyboard */; };
 		8443D3572102E54A00EAAEE6 /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443D3562102E54A00EAAEE6 /* GlobalData.swift */; };
 		8443D3592102E85C00EAAEE6 /* TimePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443D3582102E85C00EAAEE6 /* TimePickerViewController.swift */; };
-		8443D35B2102EA8100EAAEE6 /* UserDefaultsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443D35A2102EA8100EAAEE6 /* UserDefaultsModel.swift */; };
+		8443D35B2102EA8100EAAEE6 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443D35A2102EA8100EAAEE6 /* UserDefaultsManager.swift */; };
 		8443D35D2102ED7B00EAAEE6 /* DayPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443D35C2102ED7B00EAAEE6 /* DayPickerViewController.swift */; };
 		8443D3612104D95300EAAEE6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443D3602104D95300EAAEE6 /* HomeViewController.swift */; };
 		8443D3632104F8F600EAAEE6 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443D3622104F8F600EAAEE6 /* HomeModel.swift */; };
@@ -31,7 +31,7 @@
 		8443D3502102E4DA00EAAEE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8443D3562102E54A00EAAEE6 /* GlobalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
 		8443D3582102E85C00EAAEE6 /* TimePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerViewController.swift; sourceTree = "<group>"; };
-		8443D35A2102EA8100EAAEE6 /* UserDefaultsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsModel.swift; sourceTree = "<group>"; };
+		8443D35A2102EA8100EAAEE6 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		8443D35C2102ED7B00EAAEE6 /* DayPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPickerViewController.swift; sourceTree = "<group>"; };
 		8443D3602104D95300EAAEE6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8443D3622104F8F600EAAEE6 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 				8443D35C2102ED7B00EAAEE6 /* DayPickerViewController.swift */,
 				8443D3582102E85C00EAAEE6 /* TimePickerViewController.swift */,
 				8443D3562102E54A00EAAEE6 /* GlobalData.swift */,
-				8443D35A2102EA8100EAAEE6 /* UserDefaultsModel.swift */,
+				8443D35A2102EA8100EAAEE6 /* UserDefaultsManager.swift */,
 				8443D3622104F8F600EAAEE6 /* HomeModel.swift */,
 				8443D34B2102E4DA00EAAEE6 /* Assets.xcassets */,
 				8443D34D2102E4DA00EAAEE6 /* LaunchScreen.storyboard */,
@@ -162,7 +162,7 @@
 				8443D36521052B9900EAAEE6 /* NotificationManager.swift in Sources */,
 				8443D3472102E4D900EAAEE6 /* WelcomeViewController.swift in Sources */,
 				8443D3632104F8F600EAAEE6 /* HomeModel.swift in Sources */,
-				8443D35B2102EA8100EAAEE6 /* UserDefaultsModel.swift in Sources */,
+				8443D35B2102EA8100EAAEE6 /* UserDefaultsManager.swift in Sources */,
 				8443D3452102E4D900EAAEE6 /* AppDelegate.swift in Sources */,
 				8443D35D2102ED7B00EAAEE6 /* DayPickerViewController.swift in Sources */,
 			);

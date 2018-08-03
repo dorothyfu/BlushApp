@@ -12,6 +12,7 @@ class allLabels: UILabel {
     override func awakeFromNib() {
         let labelFont = "SanFrancisco"
         self.font = UIFont(name: labelFont, size: 16)
+        self.textColor = .white
     }
 }
 
@@ -25,7 +26,7 @@ class whiteLabelLarge: UILabel {
 
 class homeLabel: UILabel {
     override func awakeFromNib() {
-        self.textColor = .white
+        self.textColor = .gray
         self.font = UIFont(name: "SanFrancisco", size: 30.0)
     }
 }
@@ -47,7 +48,7 @@ class CardView: UIView {
     
     @IBInspectable var shadowOffsetWidth: Int = 0
     @IBInspectable var shadowOffsetHeight: Int = 3
-    @IBInspectable var shadowColor: UIColor? = UIColor.black
+    @IBInspectable var shadowColor: UIColor? = UIColor.gray
     @IBInspectable var shadowOpacity: Float = 0.5
     
     
@@ -71,7 +72,8 @@ class OnBoardingButton: UIButton {
         let btnWidth = 200
         let btnHeight = 40
         
-        self.backgroundColor = UIColor(red: 242.0/255.0, green: 211.0/255.0, blue: 197.0/255.0, alpha: 1)
+        //self.backgroundColor = UIColor(red: 242.0/255.0, green: 211.0/255.0, blue: 197.0/255.0, alpha: 1)
+        self.backgroundColor = UIColor(red: 240.0/255.0, green: 178.0/255.0, blue: 173.0/255.0, alpha: 1)
         self.tintColor = .white
         self.titleLabel?.font = UIFont(name: btnFont, size: 16)
         self.layer.cornerRadius = 5
