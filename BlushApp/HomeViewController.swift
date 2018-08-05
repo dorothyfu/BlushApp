@@ -10,7 +10,8 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
- 
+    @IBOutlet weak var settingsButton: UIBarButtonItem!
+    
     @IBOutlet weak var numDayLabel: UILabel!
     @IBOutlet weak var dayLabel: UILabel!
     @IBOutlet weak var pillsLeftLabel: UILabel!

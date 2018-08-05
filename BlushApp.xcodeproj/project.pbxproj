@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842758AA21176DF6006A2F7D /* settings-solid.png in Resources */ = {isa = PBXBuildFile; fileRef = 842758A921176DF5006A2F7D /* settings-solid.png */; };
+		842758AC21176EBA006A2F7D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842758AB21176EBA006A2F7D /* SettingsViewController.swift */; };
 		8443D3452102E4D900EAAEE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443D3442102E4D900EAAEE6 /* AppDelegate.swift */; };
 		8443D3472102E4D900EAAEE6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443D3462102E4D900EAAEE6 /* WelcomeViewController.swift */; };
 		8443D34A2102E4D900EAAEE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8443D3482102E4D900EAAEE6 /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		842758A921176DF5006A2F7D /* settings-solid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-solid.png"; sourceTree = "<group>"; };
+		842758AB21176EBA006A2F7D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		8443D3412102E4D900EAAEE6 /* BlushApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlushApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8443D3442102E4D900EAAEE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8443D3462102E4D900EAAEE6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		842758A821176DDB006A2F7D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				842758A921176DF5006A2F7D /* settings-solid.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		8443D3382102E4D900EAAEE6 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +80,7 @@
 		8443D3432102E4D900EAAEE6 /* BlushApp */ = {
 			isa = PBXGroup;
 			children = (
+				842758A821176DDB006A2F7D /* Assets */,
 				8443D3602104D95300EAAEE6 /* HomeViewController.swift */,
 				8443D3442102E4D900EAAEE6 /* AppDelegate.swift */,
 				8443D3462102E4D900EAAEE6 /* WelcomeViewController.swift */,
@@ -78,6 +91,7 @@
 				8443D3562102E54A00EAAEE6 /* GlobalData.swift */,
 				8443D35A2102EA8100EAAEE6 /* UserDefaultsManager.swift */,
 				8443D3622104F8F600EAAEE6 /* HomeModel.swift */,
+				842758AB21176EBA006A2F7D /* SettingsViewController.swift */,
 				8443D34B2102E4DA00EAAEE6 /* Assets.xcassets */,
 				8443D34D2102E4DA00EAAEE6 /* LaunchScreen.storyboard */,
 				8443D3502102E4DA00EAAEE6 /* Info.plist */,
@@ -145,6 +159,7 @@
 			files = (
 				8443D34F2102E4DA00EAAEE6 /* LaunchScreen.storyboard in Resources */,
 				8443D34C2102E4DA00EAAEE6 /* Assets.xcassets in Resources */,
+				842758AA21176DF6006A2F7D /* settings-solid.png in Resources */,
 				8443D34A2102E4D900EAAEE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +174,7 @@
 				8443D3612104D95300EAAEE6 /* HomeViewController.swift in Sources */,
 				8443D3572102E54A00EAAEE6 /* GlobalData.swift in Sources */,
 				8443D3592102E85C00EAAEE6 /* TimePickerViewController.swift in Sources */,
+				842758AC21176EBA006A2F7D /* SettingsViewController.swift in Sources */,
 				8443D36521052B9900EAAEE6 /* NotificationManager.swift in Sources */,
 				8443D3472102E4D900EAAEE6 /* WelcomeViewController.swift in Sources */,
 				8443D3632104F8F600EAAEE6 /* HomeModel.swift in Sources */,
