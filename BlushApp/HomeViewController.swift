@@ -18,6 +18,7 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        dayLabel.text = "Day"
         numPillsLeftLabel.text = displayNumberHome()
         pillsLeftLabel.text = displayTextHome()
         numDayLabel.text = String(UserDefaults.standard.getCurrentDay())

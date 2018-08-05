@@ -27,7 +27,7 @@ class whiteLabelLarge: UILabel {
 class homeLabel: UILabel {
     override func awakeFromNib() {
         self.textColor = .gray
-        self.font = UIFont(name: "SanFrancisco", size: 30.0)
+        self.font = UIFont.systemFont(ofSize: 25)
     }
 }
 

@@ -31,9 +31,17 @@ class TimePickerViewController: UIViewController {
         UserDefaults.standard.setNotifyMinute(value: minute)
     }
     
+    // Changes picker text color to white
+//    func pickerView(_ pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
+//        let titleData = pickerData[row]
+//        let myTitle = NSAttributedString(string: titleData, attributes: [NSAttributedStringKey.foregroundColor:UIColor.white])
+//        return myTitle
+//    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = GlobalUIVariables.backgroundColorPink
+        timePicker.setValue(UIColor.white, forKeyPath: "textColor")
     }
     
 }
