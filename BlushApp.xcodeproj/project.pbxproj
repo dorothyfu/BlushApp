@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		842758AA21176DF6006A2F7D /* settings-solid.png in Resources */ = {isa = PBXBuildFile; fileRef = 842758A921176DF5006A2F7D /* settings-solid.png */; };
 		842758AC21176EBA006A2F7D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842758AB21176EBA006A2F7D /* SettingsViewController.swift */; };
+		842758E0211893C3006A2F7D /* calendarIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842758DF211893C3006A2F7D /* calendarIcon@3x.png */; };
+		842758E2211893CA006A2F7D /* pillsIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842758E1211893CA006A2F7D /* pillsIcon@3x.png */; };
+		842758E52118C131006A2F7D /* appIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842758E32118C131006A2F7D /* appIcon@2x.png */; };
+		842758E62118C131006A2F7D /* appIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842758E42118C131006A2F7D /* appIcon@3x.png */; };
+		842758EA2118C2D7006A2F7D /* appIconSettings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842758E72118C2D6006A2F7D /* appIconSettings@3x.png */; };
+		842758EB2118C2D7006A2F7D /* appIconSpotlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842758E82118C2D7006A2F7D /* appIconSpotlight@2x.png */; };
+		842758EC2118C2D7006A2F7D /* appIconSpotlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842758E92118C2D7006A2F7D /* appIconSpotlight@3x.png */; };
+		842758F02118C43B006A2F7D /* appIconSettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842758ED2118C43B006A2F7D /* appIconSettings@2x.png */; };
+		842758F12118C43B006A2F7D /* appIconNotif@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842758EE2118C43B006A2F7D /* appIconNotif@2x.png */; };
+		842758F42118C463006A2F7D /* appIconNotif@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842758F32118C463006A2F7D /* appIconNotif@3x.png */; };
+		842758F72118C991006A2F7D /* Default-Portrait-2436h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842758F62118C991006A2F7D /* Default-Portrait-2436h@3x.png */; };
 		8443D3452102E4D900EAAEE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443D3442102E4D900EAAEE6 /* AppDelegate.swift */; };
 		8443D3472102E4D900EAAEE6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443D3462102E4D900EAAEE6 /* WelcomeViewController.swift */; };
 		8443D34A2102E4D900EAAEE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8443D3482102E4D900EAAEE6 /* Main.storyboard */; };
@@ -24,8 +34,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		842758A921176DF5006A2F7D /* settings-solid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-solid.png"; sourceTree = "<group>"; };
 		842758AB21176EBA006A2F7D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		842758DF211893C3006A2F7D /* calendarIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendarIcon@3x.png"; sourceTree = "<group>"; };
+		842758E1211893CA006A2F7D /* pillsIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pillsIcon@3x.png"; sourceTree = "<group>"; };
+		842758E32118C131006A2F7D /* appIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@2x.png"; sourceTree = "<group>"; };
+		842758E42118C131006A2F7D /* appIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@3x.png"; sourceTree = "<group>"; };
+		842758E72118C2D6006A2F7D /* appIconSettings@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIconSettings@3x.png"; sourceTree = "<group>"; };
+		842758E82118C2D7006A2F7D /* appIconSpotlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIconSpotlight@2x.png"; sourceTree = "<group>"; };
+		842758E92118C2D7006A2F7D /* appIconSpotlight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIconSpotlight@3x.png"; sourceTree = "<group>"; };
+		842758ED2118C43B006A2F7D /* appIconSettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIconSettings@2x.png"; sourceTree = "<group>"; };
+		842758EE2118C43B006A2F7D /* appIconNotif@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIconNotif@2x.png"; sourceTree = "<group>"; };
+		842758F32118C463006A2F7D /* appIconNotif@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIconNotif@3x.png"; sourceTree = "<group>"; };
+		842758F62118C991006A2F7D /* Default-Portrait-2436h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait-2436h@3x.png"; sourceTree = "<group>"; };
 		8443D3412102E4D900EAAEE6 /* BlushApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlushApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8443D3442102E4D900EAAEE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8443D3462102E4D900EAAEE6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -56,9 +76,27 @@
 		842758A821176DDB006A2F7D /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				842758A921176DF5006A2F7D /* settings-solid.png */,
+				842758F52118C89E006A2F7D /* AppIcons */,
+				842758DF211893C3006A2F7D /* calendarIcon@3x.png */,
+				842758E1211893CA006A2F7D /* pillsIcon@3x.png */,
+				842758F62118C991006A2F7D /* Default-Portrait-2436h@3x.png */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		842758F52118C89E006A2F7D /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				842758E32118C131006A2F7D /* appIcon@2x.png */,
+				842758E42118C131006A2F7D /* appIcon@3x.png */,
+				842758E72118C2D6006A2F7D /* appIconSettings@3x.png */,
+				842758E82118C2D7006A2F7D /* appIconSpotlight@2x.png */,
+				842758E92118C2D7006A2F7D /* appIconSpotlight@3x.png */,
+				842758EE2118C43B006A2F7D /* appIconNotif@2x.png */,
+				842758ED2118C43B006A2F7D /* appIconSettings@2x.png */,
+				842758F32118C463006A2F7D /* appIconNotif@3x.png */,
+			);
+			path = AppIcons;
 			sourceTree = "<group>";
 		};
 		8443D3382102E4D900EAAEE6 = {
@@ -157,10 +195,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842758E2211893CA006A2F7D /* pillsIcon@3x.png in Resources */,
+				842758E0211893C3006A2F7D /* calendarIcon@3x.png in Resources */,
+				842758F72118C991006A2F7D /* Default-Portrait-2436h@3x.png in Resources */,
+				842758F12118C43B006A2F7D /* appIconNotif@2x.png in Resources */,
+				842758E62118C131006A2F7D /* appIcon@3x.png in Resources */,
 				8443D34F2102E4DA00EAAEE6 /* LaunchScreen.storyboard in Resources */,
+				842758E52118C131006A2F7D /* appIcon@2x.png in Resources */,
 				8443D34C2102E4DA00EAAEE6 /* Assets.xcassets in Resources */,
-				842758AA21176DF6006A2F7D /* settings-solid.png in Resources */,
 				8443D34A2102E4D900EAAEE6 /* Main.storyboard in Resources */,
+				842758F02118C43B006A2F7D /* appIconSettings@2x.png in Resources */,
+				842758F42118C463006A2F7D /* appIconNotif@3x.png in Resources */,
+				842758EC2118C2D7006A2F7D /* appIconSpotlight@3x.png in Resources */,
+				842758EA2118C2D7006A2F7D /* appIconSettings@3x.png in Resources */,
+				842758EB2118C2D7006A2F7D /* appIconSpotlight@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,6 +16,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var dayLabel: UILabel!
     @IBOutlet weak var pillsLeftLabel: UILabel!
     @IBOutlet weak var numPillsLeftLabel: UILabel!
+    @IBOutlet weak var calendarIcon: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,8 @@ class HomeViewController: UIViewController {
         pillsLeftLabel.text = displayTextHome()
         numDayLabel.text = String(UserDefaults.standard.getCurrentDay())
         self.view.backgroundColor = GlobalUIVariables.pinkThree
+        let calendarImage = UIImage(named: "calendarIcon.png")
+        calendarIcon.image = calendarImage
     }
     
 }

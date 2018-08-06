@@ -15,6 +15,8 @@ enum UserDefaultKeys: String {
     case hasBeenLaunchedBeforeFlag
 }
 
+
+// Onboarding check uses this function
 extension UserDefaults {
     fileprivate class func boolForKey(key: String) -> Bool {
         return UserDefaults.standard.bool(forKey: key)

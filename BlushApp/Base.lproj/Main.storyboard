@@ -268,39 +268,47 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SCE-UH-nhI" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
-                                <rect key="frame" x="67" y="147" width="240" height="150"/>
+                                <rect key="frame" x="67" y="147" width="240" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOB-0l-hUf" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="65" y="9" width="110" height="66"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOB-0l-hUf" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="35" y="126" width="75" height="66"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYR-fL-oYy" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="63" y="75" width="114" height="67"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYR-fL-oYy" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="118" y="126" width="96" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calendarIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="fHE-2S-mmR">
+                                        <rect key="frame" x="66" y="29" width="109" height="97"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yWk-Gs-zex" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
-                                <rect key="frame" x="67" y="389" width="240" height="150"/>
+                                <rect key="frame" x="67" y="389" width="240" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0LP-FE-MGh" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="65" y="23" width="110" height="67"/>
+                                        <rect key="frame" x="8" y="133" width="110" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kr-Jc-31M" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="69" y="90" width="106" height="52"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pillsIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="k7b-X9-1XI">
+                                        <rect key="frame" x="61" y="16" width="119" height="109"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kr-Jc-31M" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="112" y="140" width="106" height="52"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -314,7 +322,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="BLUSH" id="itc-OG-sK0">
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="settings-solid.png" id="h0o-y4-uCU">
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="settingsIcon.png" style="plain" id="h0o-y4-uCU">
                                             <connections>
                                                 <segue destination="ywH-ho-5WN" kind="show" id="eGY-5s-WsB"/>
                                             </connections>
@@ -327,6 +335,7 @@
                         <viewLayoutGuide key="safeArea" id="h0t-vW-lto"/>
                     </view>
                     <connections>
+                        <outlet property="calendarIcon" destination="fHE-2S-mmR" id="gFb-sJ-jbx"/>
                         <outlet property="dayLabel" destination="JOB-0l-hUf" id="ZVR-0l-OV5"/>
                         <outlet property="numDayLabel" destination="KYR-fL-oYy" id="ISe-av-Jll"/>
                         <outlet property="numPillsLeftLabel" destination="0LP-FE-MGh" id="3pX-3A-m8S"/>
@@ -462,15 +471,15 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="Notification Settings" id="C6r-tl-fmb">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Ah5-f3-ZDe">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="qF3-Q4-TZb">
                                         <rect key="frame" x="0.0" y="348" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ah5-f3-ZDe" id="9pu-CR-a8k">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qF3-Q4-TZb" id="mrr-i2-gcd">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change Notification Message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7q-FA-1pa">
-                                                    <rect key="frame" x="16" y="11" width="225" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change Notification Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OK2-5t-op5">
+                                                    <rect key="frame" x="16" y="11" width="194" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -479,20 +488,24 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="haF-9d-DEk">
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="WtT-cl-JG5">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="LTh-Kx-VlK">
                                         <rect key="frame" x="0.0" y="392" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="haF-9d-DEk" id="dWa-jO-oFR">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LTh-Kx-VlK" id="Kgo-Fw-odO">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gem-Uz-C9N">
-                                                    <rect key="frame" x="16" y="6" width="110" height="30"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change Notification Message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W05-PM-hzC">
+                                                    <rect key="frame" x="16" y="11" width="225" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="Reset to Default">
-                                                        <color key="titleColor" red="1" green="0.0" blue="0.034920876080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </state>
-                                                </button>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -577,9 +590,84 @@
             </objects>
             <point key="canvasLocation" x="2540" y="136"/>
         </scene>
+        <!--Time Picker View Controller-->
+        <scene sceneID="DiT-XF-avd">
+            <objects>
+                <viewController id="klL-hO-aFM" customClass="TimePickerViewController" customModule="BlushApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wb0-pU-W5d">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXz-qu-5qn" customClass="GradientView" customModule="BlushApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What time would you like to be reminded at?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7t-b0-e0u" customClass="allLabels" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="134.5" width="335" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sh8-uc-XvQ" customClass="OnBoardingButton" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="87.5" y="577" width="200" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="7Cm-bR-1pu"/>
+                                            <constraint firstAttribute="height" constant="40" id="IuV-VH-uCw"/>
+                                        </constraints>
+                                        <state key="normal" title="Next"/>
+                                        <connections>
+                                            <action selector="onTimeNextClicked:" destination="klL-hO-aFM" eventType="touchUpInside" id="EZ3-1D-a8d"/>
+                                        </connections>
+                                    </button>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="8GG-Yz-1P7">
+                                        <rect key="frame" x="20" y="225.5" width="335" height="216"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <date key="date" timeIntervalSinceReferenceDate="553839252.95619905">
+                                            <!--2018-07-21 04:14:12 +0000-->
+                                        </date>
+                                        <connections>
+                                            <action selector="onTimePickerSelected:" destination="klL-hO-aFM" eventType="valueChanged" id="hj9-Qr-lnv"/>
+                                        </connections>
+                                    </datePicker>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Sh8-uc-XvQ" secondAttribute="bottom" constant="50" id="BXM-uE-Gds"/>
+                                    <constraint firstItem="8GG-Yz-1P7" firstAttribute="top" secondItem="n7t-b0-e0u" secondAttribute="bottom" constant="50" id="TIB-ko-eAC"/>
+                                    <constraint firstAttribute="trailing" secondItem="n7t-b0-e0u" secondAttribute="trailing" constant="20" id="Tmz-7J-tfM"/>
+                                    <constraint firstItem="n7t-b0-e0u" firstAttribute="centerX" secondItem="hXz-qu-5qn" secondAttribute="centerX" id="Ym0-uJ-jOv"/>
+                                    <constraint firstItem="n7t-b0-e0u" firstAttribute="leading" secondItem="hXz-qu-5qn" secondAttribute="leading" constant="20" id="fMz-p9-737"/>
+                                    <constraint firstItem="8GG-Yz-1P7" firstAttribute="leading" secondItem="hXz-qu-5qn" secondAttribute="leading" constant="20" id="gUF-Do-fxD"/>
+                                    <constraint firstItem="8GG-Yz-1P7" firstAttribute="centerY" secondItem="hXz-qu-5qn" secondAttribute="centerY" id="p9G-WS-Gfb"/>
+                                    <constraint firstItem="Sh8-uc-XvQ" firstAttribute="centerX" secondItem="hXz-qu-5qn" secondAttribute="centerX" id="t2q-h3-Q5a"/>
+                                    <constraint firstAttribute="trailing" secondItem="8GG-Yz-1P7" secondAttribute="trailing" constant="20" id="vG4-oY-dXd"/>
+                                    <constraint firstItem="8GG-Yz-1P7" firstAttribute="centerX" secondItem="hXz-qu-5qn" secondAttribute="centerX" id="vX5-HI-F8Y"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hXz-qu-5qn" firstAttribute="top" secondItem="Wb0-pU-W5d" secondAttribute="top" id="Dsz-fU-jXS"/>
+                            <constraint firstAttribute="trailing" secondItem="hXz-qu-5qn" secondAttribute="trailing" id="MEl-It-8vU"/>
+                            <constraint firstItem="hXz-qu-5qn" firstAttribute="leading" secondItem="Wb0-pU-W5d" secondAttribute="leading" id="kt9-Ke-ma9"/>
+                            <constraint firstAttribute="bottom" secondItem="hXz-qu-5qn" secondAttribute="bottom" id="y2i-px-oDN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KAF-jz-wsh"/>
+                    </view>
+                    <connections>
+                        <outlet property="timePicker" destination="8GG-Yz-1P7" id="mlG-qU-Idu"/>
+                        <outlet property="timePickerLabel" destination="n7t-b0-e0u" id="UrY-hV-oc3"/>
+                        <outlet property="timePickerNextButton" destination="Sh8-uc-XvQ" id="5io-cV-n7K"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zvf-Iw-FiO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3174" y="-1067"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="settings-solid.png" width="256" height="256"/>
+        <image name="calendarIcon.png" width="100" height="100"/>
+        <image name="pillsIcon.png" width="100" height="100"/>
+        <image name="settingsIcon.png" width="100" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="rfA-dg-Mm6"/>
