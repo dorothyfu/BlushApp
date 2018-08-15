@@ -16,8 +16,8 @@ func scheduleNotification() {
     // first, you declare the content of the notification:
     let content = UNMutableNotificationContent()
     content.title = "Blush App"
-    content.subtitle = "It's time to take your pill!"
-    content.body = "test"
+    //content.subtitle = "It's time to take your pill!"
+    content.body = "It's time to take your pill!"
     
     // now, you should declare the UNCalendarNotificationTrigger instance,
     // but before that, you'd need to describe what's the date matching for firing it:
