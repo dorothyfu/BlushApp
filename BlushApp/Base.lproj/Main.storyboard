@@ -487,6 +487,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="klL-hO-aFM" kind="show" id="YSI-Pn-JOQ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -613,9 +616,10 @@
                                             <constraint firstAttribute="width" constant="200" id="7Cm-bR-1pu"/>
                                             <constraint firstAttribute="height" constant="40" id="IuV-VH-uCw"/>
                                         </constraints>
-                                        <state key="normal" title="Next"/>
+                                        <state key="normal" title="Done"/>
                                         <connections>
                                             <action selector="onTimeNextClicked:" destination="klL-hO-aFM" eventType="touchUpInside" id="EZ3-1D-a8d"/>
+                                            <segue destination="ywH-ho-5WN" kind="show" id="3sT-iA-jR3"/>
                                         </connections>
                                     </button>
                                     <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="8GG-Yz-1P7">
@@ -670,6 +674,7 @@
         <image name="settingsIcon.png" width="100" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="3sT-iA-jR3"/>
         <segue reference="rfA-dg-Mm6"/>
     </inferredMetricsTieBreakers>
 </document>

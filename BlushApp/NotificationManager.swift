@@ -15,7 +15,7 @@ func scheduleNotification() {
     let notifyMinute = UserDefaults.standard.getNotifyMinute()
     // first, you declare the content of the notification:
     let content = UNMutableNotificationContent()
-    content.title = "Blush App"
+    //content.title = "Blush App"
     //content.subtitle = "It's time to take your pill!"
     content.body = "It's time to take your pill!"
     

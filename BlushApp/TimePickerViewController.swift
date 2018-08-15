@@ -29,6 +29,15 @@ class TimePickerViewController: UIViewController {
     @IBAction func onTimeNextClicked(_ sender: Any) {
         UserDefaults.standard.setNotifyHour(value: hour)
         UserDefaults.standard.setNotifyMinute(value: minute)
+        print(UserDefaults.standard.getNotifyMinute())
+        // Set up notifications
+        let notificationSettings = UIUserNotificationSettings(
+            types: [.badge, .sound, .alert], categories: nil)
+        UIApplication.shared.registerUserNotificationSettings(notificationSettings)
+        scheduleNotification()
+        
+        UserDefaults.didPassOnboarding()
+        UserDefaults.standard.synchronize()
     }
     
     // Changes picker text color to white

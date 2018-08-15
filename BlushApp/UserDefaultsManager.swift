@@ -13,8 +13,9 @@ enum UserDefaultKeys: String {
     case notifyMinute
     case currentDay
     case hasBeenLaunchedBeforeFlag
+    case defaultMessage = "It's time to take your pill!"
+    case customMessage
 }
-
 
 // Onboarding check uses this function
 extension UserDefaults {
@@ -25,6 +26,16 @@ extension UserDefaults {
     fileprivate class func setValue(value: Bool, key: String) {
         UserDefaults.standard.set(value, forKey: key)
         UserDefaults.standard.synchronize()
+    }
+}
+
+extension UserDefaults {
+    func setCustomMessage(message: String) {
+        set(message, forKey: UserDefaultKeys.customMessage.rawValue)
+    }
+    
+    func getCustomMessage() -> String {
+        return UserDefaultKeys.customMessage.rawValue
     }
 }
 
