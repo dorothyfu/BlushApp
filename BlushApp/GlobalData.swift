@@ -34,11 +34,22 @@ class homeLabel: UILabel {
 class allNavBars: UINavigationBar {
     override func awakeFromNib() {
         let color = UIColor(red: 242.0/255.0, green: 211.0/255.0, blue: 197.0/255.0, alpha: 1)
-        self.barTintColor = UIColor.white
+        self.titleTextAttributes = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 16.0) ]
+        self.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        self.isTranslucent = true
+        self.shadowImage = UIImage()
+        self.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+    }
+}
+
+class gradientNavBars: UINavigationBar {
+    override func awakeFromNib() {
+        let color = UIColor(red: 242.0/255.0, green: 211.0/255.0, blue: 197.0/255.0, alpha: 1)
         self.titleTextAttributes = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 16.0) ]
         self.titleTextAttributes = [NSAttributedStringKey.foregroundColor: color]
         self.isTranslucent = true
-        self.backgroundColor = .clear
+        self.shadowImage = UIImage()
+        self.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
     }
 }
 
