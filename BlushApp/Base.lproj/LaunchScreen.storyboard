@@ -18,16 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default-Portrait.png" translatesAutoresizingMaskIntoConstraints="NO" id="t5d-vW-ufl">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconTransparentPink.png" translatesAutoresizingMaskIntoConstraints="NO" id="cGJ-EF-ltv">
+                                <rect key="frame" x="132.5" y="278.5" width="110" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="kAe-ha-9Hn"/>
+                                    <constraint firstAttribute="width" constant="110" id="lOv-d1-ThN"/>
+                                </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="t5d-vW-ufl" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="E6C-jD-2f6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="t5d-vW-ufl" secondAttribute="bottom" id="OFX-I6-tZP"/>
-                            <constraint firstItem="t5d-vW-ufl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hlC-tI-0Al"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t5d-vW-ufl" secondAttribute="trailing" id="zLs-MY-QBQ"/>
+                            <constraint firstItem="cGJ-EF-ltv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="3rx-Mp-3OI"/>
+                            <constraint firstItem="cGJ-EF-ltv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="8R3-D7-S53"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -38,6 +40,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Default-Portrait.png" width="16" height="16"/>
+        <image name="iconTransparentPink.png" width="180" height="180"/>
     </resources>
 </document>
