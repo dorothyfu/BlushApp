@@ -20,6 +20,7 @@
 		842758F42118C463006A2F7D /* appIconNotif@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842758F32118C463006A2F7D /* appIconNotif@3x.png */; };
 		842758F72118C991006A2F7D /* Default-Portrait-2436h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 842758F62118C991006A2F7D /* Default-Portrait-2436h@3x.png */; };
 		842758FB212A5CA6006A2F7D /* ChangeTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842758FA212A5CA6006A2F7D /* ChangeTimeViewController.swift */; };
+		842758FD212CFA2D006A2F7D /* ChangeMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842758FC212CFA2D006A2F7D /* ChangeMessageViewController.swift */; };
 		8443D3452102E4D900EAAEE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443D3442102E4D900EAAEE6 /* AppDelegate.swift */; };
 		8443D3472102E4D900EAAEE6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443D3462102E4D900EAAEE6 /* WelcomeViewController.swift */; };
 		8443D34A2102E4D900EAAEE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8443D3482102E4D900EAAEE6 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 		842758F32118C463006A2F7D /* appIconNotif@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIconNotif@3x.png"; sourceTree = "<group>"; };
 		842758F62118C991006A2F7D /* Default-Portrait-2436h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait-2436h@3x.png"; sourceTree = "<group>"; };
 		842758FA212A5CA6006A2F7D /* ChangeTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeTimeViewController.swift; sourceTree = "<group>"; };
+		842758FC212CFA2D006A2F7D /* ChangeMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMessageViewController.swift; sourceTree = "<group>"; };
 		8443D3412102E4D900EAAEE6 /* BlushApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlushApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8443D3442102E4D900EAAEE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8443D3462102E4D900EAAEE6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				8443D3582102E85C00EAAEE6 /* TimePickerViewController.swift */,
 				8443D3462102E4D900EAAEE6 /* WelcomeViewController.swift */,
 				8443D3482102E4D900EAAEE6 /* Main.storyboard */,
+				842758FC212CFA2D006A2F7D /* ChangeMessageViewController.swift */,
 				8443D36421052B9900EAAEE6 /* NotificationManager.swift */,
 				8443D35C2102ED7B00EAAEE6 /* DayPickerViewController.swift */,
 				8443D3562102E54A00EAAEE6 /* GlobalData.swift */,
@@ -232,6 +235,7 @@
 				8443D3632104F8F600EAAEE6 /* HomeModel.swift in Sources */,
 				8443D35B2102EA8100EAAEE6 /* UserDefaultsManager.swift in Sources */,
 				8443D3452102E4D900EAAEE6 /* AppDelegate.swift in Sources */,
+				842758FD212CFA2D006A2F7D /* ChangeMessageViewController.swift in Sources */,
 				8443D35D2102ED7B00EAAEE6 /* DayPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

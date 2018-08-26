@@ -15,9 +15,12 @@ func scheduleNotification() {
     let notifyMinute = UserDefaults.standard.getNotifyMinute()
     // first, you declare the content of the notification:
     let content = UNMutableNotificationContent()
-    //content.title = "Blush App"
-    //content.subtitle = "It's time to take your pill!"
-    content.body = "It's time to take your pill!"
+    
+    if UserDefaults.standard.getMessageToUse() == "default" {
+        content.body = "It's time to take your pill!"
+    } else {
+        content.body = UserDefaults.standard.getCustomMessage()
+    }
     
     // now, you should declare the UNCalendarNotificationTrigger instance,
     // but before that, you'd need to describe what's the date matching for firing it:

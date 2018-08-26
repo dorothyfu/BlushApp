@@ -15,6 +15,7 @@ enum UserDefaultKeys: String {
     case hasBeenLaunchedBeforeFlag
     case defaultMessage = "It's time to take your pill!"
     case customMessage
+    case messageToUse = "default"
 }
 
 // Onboarding check uses this function
@@ -36,6 +37,14 @@ extension UserDefaults {
     
     func getCustomMessage() -> String {
         return UserDefaultKeys.customMessage.rawValue
+    }
+    
+    func setMessageToUse(key: String) {
+        set(key, forKey: UserDefaultKeys.messageToUse.rawValue)
+    }
+    
+    func getMessageToUse() -> String {
+        return UserDefaultKeys.messageToUse.rawValue
     }
 }
 

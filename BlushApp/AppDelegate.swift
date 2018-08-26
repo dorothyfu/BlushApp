@@ -18,19 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
-        //welcomeViewController = WelcomeViewController()
-    
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let welcomeViewController = storyboard.instantiateViewController(withIdentifier: "WelcomeViewController") as! WelcomeViewController
-//
+
         if UserDefaults.hasPassedOnboarding() != true {
-//            if let welcomeViewController = self.welcomeViewController {
-//                let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//                       let welcomeViewController = storyboard.instantiateViewController(withIdentifier: "WelcomeViewController") as! WelcomeViewController
-//                self.window?.rootViewController = welcomeViewController
-//                self.window?.makeKeyAndVisible()
-//            }
             var welcomeViewController = self.welcomeViewController
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             welcomeViewController = storyboard.instantiateViewController(withIdentifier: "WelcomeViewController") as! WelcomeViewController
