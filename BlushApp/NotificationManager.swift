@@ -13,6 +13,7 @@ import UserNotifications
 func scheduleNotification() {
     let notifyHour = UserDefaults.standard.getNotifyHour()
     let notifyMinute = UserDefaults.standard.getNotifyMinute()
+    let cycleDay = UserDefaults.standard.getCurrentDay()
     // first, you declare the content of the notification:
     let content = UNMutableNotificationContent()
     
@@ -29,10 +30,14 @@ func scheduleNotification() {
     date.hour = notifyHour
     date.minute = notifyMinute
     
-    // declaring the trigger
-    let calendarTrigger = UNCalendarNotificationTrigger(dateMatching: date, repeats: true)
+    if cycleDay < 22 {
+        // declaring the trigger
+        let calendarTrigger = UNCalendarNotificationTrigger(dateMatching: date, repeats: true)
     
-    // creating a request and add it to the notification center
-    let request = UNNotificationRequest(identifier: "notification-identifier", content: content, trigger: calendarTrigger)
-    UNUserNotificationCenter.current().add(request)
+        // creating a request and add it to the notification center
+        let request = UNNotificationRequest(identifier: "notification-identifier", content: content, trigger: calendarTrigger)
+        UNUserNotificationCenter.current().add(request)
+    } else {
+        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+    }
 }
