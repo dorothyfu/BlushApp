@@ -289,14 +289,8 @@
                                             <constraint firstAttribute="width" constant="100" id="m9u-G7-lP8"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOB-0l-hUf" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="73" y="151.5" width="42" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYR-fL-oYy" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="123" y="151.5" width="42" height="20.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOB-0l-hUf" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="99" y="151.5" width="42" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -304,12 +298,10 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottomMargin" secondItem="KYR-fL-oYy" secondAttribute="bottom" constant="20" id="5KP-Qf-gcs"/>
                                     <constraint firstItem="fHE-2S-mmR" firstAttribute="top" secondItem="SCE-UH-nhI" secondAttribute="topMargin" constant="20" id="EWW-fM-DDj"/>
-                                    <constraint firstItem="KYR-fL-oYy" firstAttribute="leading" secondItem="JOB-0l-hUf" secondAttribute="trailing" constant="8" id="Jn7-F2-S3D"/>
+                                    <constraint firstItem="JOB-0l-hUf" firstAttribute="centerX" secondItem="SCE-UH-nhI" secondAttribute="centerX" id="I5X-yV-TXe"/>
                                     <constraint firstAttribute="bottomMargin" secondItem="JOB-0l-hUf" secondAttribute="bottom" constant="20" id="UwJ-Ly-y7b"/>
                                     <constraint firstAttribute="width" constant="240" id="dS1-LZ-BrU"/>
-                                    <constraint firstItem="KYR-fL-oYy" firstAttribute="leading" secondItem="JOB-0l-hUf" secondAttribute="trailing" constant="8" id="lgt-54-vDa"/>
                                     <constraint firstItem="fHE-2S-mmR" firstAttribute="centerX" secondItem="SCE-UH-nhI" secondAttribute="centerX" id="pBt-Hy-5Dv"/>
                                     <constraint firstAttribute="height" constant="200" id="z42-mC-d9X"/>
                                 </constraints>
@@ -324,14 +316,8 @@
                                             <constraint firstAttribute="height" constant="120" id="hVQ-NO-i7C"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0LP-FE-MGh" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="16" y="151.5" width="58" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kr-Jc-31M" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="82" y="151.5" width="42" height="20.5"/>
+                                        <rect key="frame" x="99" y="151.5" width="42" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -341,13 +327,9 @@
                                 <constraints>
                                     <constraint firstItem="k7b-X9-1XI" firstAttribute="top" secondItem="yWk-Gs-zex" secondAttribute="topMargin" constant="20" id="1K3-r6-IPb"/>
                                     <constraint firstItem="k7b-X9-1XI" firstAttribute="centerX" secondItem="yWk-Gs-zex" secondAttribute="centerX" id="6Qa-X6-zxI"/>
-                                    <constraint firstAttribute="bottomMargin" secondItem="0LP-FE-MGh" secondAttribute="bottom" constant="20" id="CGC-d7-j9u"/>
-                                    <constraint firstItem="0LP-FE-MGh" firstAttribute="centerX" secondItem="yWk-Gs-zex" secondAttribute="centerX" constant="-75" id="DcI-rF-sVY"/>
+                                    <constraint firstItem="4kr-Jc-31M" firstAttribute="centerX" secondItem="yWk-Gs-zex" secondAttribute="centerX" id="GlZ-GN-zWy"/>
                                     <constraint firstAttribute="height" constant="200" id="P9f-ZI-2ZO"/>
                                     <constraint firstAttribute="width" constant="240" id="PSu-hz-ycs"/>
-                                    <constraint firstItem="4kr-Jc-31M" firstAttribute="leading" secondItem="0LP-FE-MGh" secondAttribute="trailing" constant="8" id="eKa-u7-mql"/>
-                                    <constraint firstItem="4kr-Jc-31M" firstAttribute="leading" secondItem="0LP-FE-MGh" secondAttribute="trailing" constant="8" id="iNJ-Ct-9M4"/>
-                                    <constraint firstItem="0LP-FE-MGh" firstAttribute="leading" secondItem="yWk-Gs-zex" secondAttribute="leadingMargin" constant="8" id="k5y-lb-LXk"/>
                                     <constraint firstAttribute="bottomMargin" secondItem="4kr-Jc-31M" secondAttribute="bottom" constant="20" id="nVi-u7-iIJ"/>
                                 </constraints>
                             </view>
@@ -364,8 +346,6 @@
                     <connections>
                         <outlet property="calendarIcon" destination="fHE-2S-mmR" id="gFb-sJ-jbx"/>
                         <outlet property="dayLabel" destination="JOB-0l-hUf" id="ZVR-0l-OV5"/>
-                        <outlet property="numDayLabel" destination="KYR-fL-oYy" id="ISe-av-Jll"/>
-                        <outlet property="numPillsLeftLabel" destination="0LP-FE-MGh" id="3pX-3A-m8S"/>
                         <outlet property="pillsLeftLabel" destination="4kr-Jc-31M" id="Uhn-lF-e8s"/>
                         <outlet property="settingsButton" destination="h0o-y4-uCU" id="fmL-TJ-1TK"/>
                     </connections>

@@ -20,10 +20,8 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        dayLabel.text = "Day"
-        numPillsLeftLabel.text = displayNumberHome()
-        pillsLeftLabel.text = displayTextHome()
-        numDayLabel.text = String(UserDefaults.standard.getCurrentDay())
+        dayLabel.text = "Day" + " " + String(UserDefaults.standard.getCurrentDay())
+        pillsLeftLabel.text = displayNumberHome() + " " + displayTextHome()
         self.view.backgroundColor = GlobalUIVariables.pinkThree
         let calendarImage = UIImage(named: "calendarIcon.png")
         calendarIcon.image = calendarImage
