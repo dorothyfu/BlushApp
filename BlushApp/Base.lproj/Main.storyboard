@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VQl-Ph-qzd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VQl-Ph-qzd">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -203,7 +203,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2VB-T1-b05">
-                                        <rect key="frame" x="20" y="225" width="335" height="216"/>
+                                        <rect key="frame" x="20" y="225.5" width="335" height="216"/>
                                     </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6B-5a-4cX" customClass="OnBoardingButton" customModule="BlushApp" customModuleProvider="target">
                                         <rect key="frame" x="87.5" y="577" width="200" height="40"/>
@@ -218,7 +218,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which day is it today?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vd0-Pp-N3L" customClass="allLabels" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="104.5" y="135" width="167" height="40"/>
+                                        <rect key="frame" x="104" y="135.5" width="167" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="mgh-Ha-rGK"/>
                                         </constraints>
@@ -267,59 +267,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SCE-UH-nhI" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
-                                <rect key="frame" x="67" y="147" width="240" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOB-0l-hUf" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="35" y="126" width="75" height="66"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYR-fL-oYy" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="118" y="126" width="96" height="67"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calendarIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="fHE-2S-mmR">
-                                        <rect key="frame" x="69" y="28" width="103" height="100"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yWk-Gs-zex" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
-                                <rect key="frame" x="67" y="389" width="240" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0LP-FE-MGh" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="8" y="133" width="110" height="67"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pillsIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="k7b-X9-1XI">
-                                        <rect key="frame" x="61" y="16" width="119" height="109"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kr-Jc-31M" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="112" y="140" width="106" height="52"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6UF-nU-yMO" customClass="allNavBars" customModule="BlushApp" customModuleProvider="target">
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6UF-nU-yMO" customClass="allNavBars" customModule="BlushApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="25" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="BLUSH" id="itc-OG-sK0">
                                         <barButtonItem key="rightBarButtonItem" title="Item" image="settingsIcon.png" style="plain" id="h0o-y4-uCU">
@@ -330,8 +279,86 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SCE-UH-nhI" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
+                                <rect key="frame" x="67.5" y="147" width="240" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendarIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="fHE-2S-mmR">
+                                        <rect key="frame" x="70" y="28" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="TDA-5K-39M"/>
+                                            <constraint firstAttribute="width" constant="100" id="m9u-G7-lP8"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JOB-0l-hUf" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="73" y="151.5" width="42" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYR-fL-oYy" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="123" y="151.5" width="42" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottomMargin" secondItem="KYR-fL-oYy" secondAttribute="bottom" constant="20" id="5KP-Qf-gcs"/>
+                                    <constraint firstItem="fHE-2S-mmR" firstAttribute="top" secondItem="SCE-UH-nhI" secondAttribute="topMargin" constant="20" id="EWW-fM-DDj"/>
+                                    <constraint firstItem="KYR-fL-oYy" firstAttribute="leading" secondItem="JOB-0l-hUf" secondAttribute="trailing" constant="8" id="Jn7-F2-S3D"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="JOB-0l-hUf" secondAttribute="bottom" constant="20" id="UwJ-Ly-y7b"/>
+                                    <constraint firstAttribute="width" constant="240" id="dS1-LZ-BrU"/>
+                                    <constraint firstItem="KYR-fL-oYy" firstAttribute="leading" secondItem="JOB-0l-hUf" secondAttribute="trailing" constant="8" id="lgt-54-vDa"/>
+                                    <constraint firstItem="fHE-2S-mmR" firstAttribute="centerX" secondItem="SCE-UH-nhI" secondAttribute="centerX" id="pBt-Hy-5Dv"/>
+                                    <constraint firstAttribute="height" constant="200" id="z42-mC-d9X"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yWk-Gs-zex" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
+                                <rect key="frame" x="67.5" y="389" width="240" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pillsIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="k7b-X9-1XI">
+                                        <rect key="frame" x="60" y="28" width="120" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="FUJ-g0-VVa"/>
+                                            <constraint firstAttribute="height" constant="120" id="hVQ-NO-i7C"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0LP-FE-MGh" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="151.5" width="58" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kr-Jc-31M" customClass="homeLabel" customModule="BlushApp" customModuleProvider="target">
+                                        <rect key="frame" x="82" y="151.5" width="42" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="k7b-X9-1XI" firstAttribute="top" secondItem="yWk-Gs-zex" secondAttribute="topMargin" constant="20" id="1K3-r6-IPb"/>
+                                    <constraint firstItem="k7b-X9-1XI" firstAttribute="centerX" secondItem="yWk-Gs-zex" secondAttribute="centerX" id="6Qa-X6-zxI"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="0LP-FE-MGh" secondAttribute="bottom" constant="20" id="CGC-d7-j9u"/>
+                                    <constraint firstItem="0LP-FE-MGh" firstAttribute="centerX" secondItem="yWk-Gs-zex" secondAttribute="centerX" constant="-75" id="DcI-rF-sVY"/>
+                                    <constraint firstAttribute="height" constant="200" id="P9f-ZI-2ZO"/>
+                                    <constraint firstAttribute="width" constant="240" id="PSu-hz-ycs"/>
+                                    <constraint firstItem="4kr-Jc-31M" firstAttribute="leading" secondItem="0LP-FE-MGh" secondAttribute="trailing" constant="8" id="eKa-u7-mql"/>
+                                    <constraint firstItem="4kr-Jc-31M" firstAttribute="leading" secondItem="0LP-FE-MGh" secondAttribute="trailing" constant="8" id="iNJ-Ct-9M4"/>
+                                    <constraint firstItem="0LP-FE-MGh" firstAttribute="leading" secondItem="yWk-Gs-zex" secondAttribute="leadingMargin" constant="8" id="k5y-lb-LXk"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="4kr-Jc-31M" secondAttribute="bottom" constant="20" id="nVi-u7-iIJ"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SCE-UH-nhI" firstAttribute="top" secondItem="6UF-nU-yMO" secondAttribute="bottom" constant="78" id="cWM-y6-0uO"/>
+                            <constraint firstItem="SCE-UH-nhI" firstAttribute="centerX" secondItem="Kbc-Iy-6HH" secondAttribute="centerX" id="h1X-VC-DeD"/>
+                            <constraint firstItem="h0t-vW-lto" firstAttribute="bottom" secondItem="yWk-Gs-zex" secondAttribute="bottom" constant="78" id="hQB-Sv-wqC"/>
+                            <constraint firstItem="yWk-Gs-zex" firstAttribute="centerX" secondItem="Kbc-Iy-6HH" secondAttribute="centerX" id="kYd-dm-9dh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="h0t-vW-lto"/>
                     </view>
                     <connections>
@@ -631,7 +658,7 @@
                                 <rect key="frame" x="20" y="70" width="335" height="547"/>
                                 <subviews>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ef4-Cn-LOQ">
-                                        <rect key="frame" x="20" y="165" width="295" height="216"/>
+                                        <rect key="frame" x="20" y="165.5" width="295" height="216"/>
                                     </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aPs-zg-FJ5" customClass="OnBoardingButton" customModule="BlushApp" customModuleProvider="target">
                                         <rect key="frame" x="67.5" y="457" width="200" height="40"/>
@@ -645,7 +672,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which day is it today?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKX-pc-FtB" customClass="allLabels" customModule="BlushApp" customModuleProvider="target">
-                                        <rect key="frame" x="84.5" y="50" width="167" height="40"/>
+                                        <rect key="frame" x="84" y="50" width="167" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="lLU-vL-acJ"/>
                                         </constraints>
