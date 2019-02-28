@@ -267,8 +267,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6UF-nU-yMO" customClass="allNavBars" customModule="BlushApp" customModuleProvider="target">
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6UF-nU-yMO" customClass="allNavBars" customModule="BlushApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="25" width="375" height="44"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
                                 <items>
                                     <navigationItem title="BLUSH" id="itc-OG-sK0">
                                         <barButtonItem key="rightBarButtonItem" title="Item" image="settingsIcon.png" style="plain" id="h0o-y4-uCU">
@@ -279,7 +282,7 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SCE-UH-nhI" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SCE-UH-nhI" customClass="CardView" customModule="BlushApp" customModuleProvider="target">
                                 <rect key="frame" x="67.5" y="147" width="240" height="200"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendarIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="fHE-2S-mmR">
@@ -336,6 +339,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="6UF-nU-yMO" firstAttribute="top" secondItem="h0t-vW-lto" secondAttribute="top" constant="5" id="9E1-0J-bK7"/>
+                            <constraint firstItem="6UF-nU-yMO" firstAttribute="trailing" secondItem="h0t-vW-lto" secondAttribute="trailing" id="JPP-MX-8gw"/>
+                            <constraint firstItem="6UF-nU-yMO" firstAttribute="leading" secondItem="h0t-vW-lto" secondAttribute="leading" id="OVs-K6-Wgs"/>
+                            <constraint firstItem="6UF-nU-yMO" firstAttribute="centerX" secondItem="Kbc-Iy-6HH" secondAttribute="centerX" id="Qjw-Mz-ZiZ"/>
                             <constraint firstItem="SCE-UH-nhI" firstAttribute="top" secondItem="6UF-nU-yMO" secondAttribute="bottom" constant="78" id="cWM-y6-0uO"/>
                             <constraint firstItem="SCE-UH-nhI" firstAttribute="centerX" secondItem="Kbc-Iy-6HH" secondAttribute="centerX" id="h1X-VC-DeD"/>
                             <constraint firstItem="h0t-vW-lto" firstAttribute="bottom" secondItem="yWk-Gs-zex" secondAttribute="bottom" constant="78" id="hQB-Sv-wqC"/>
