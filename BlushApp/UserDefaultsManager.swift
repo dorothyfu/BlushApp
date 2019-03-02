@@ -36,7 +36,7 @@ extension UserDefaults {
     }
     
     func getCustomMessage() -> String {
-        return UserDefaultKeys.customMessage.rawValue
+        return string(forKey: UserDefaultKeys.customMessage.rawValue) ?? ""
     }
     
     func setMessageToUse(key: String) {
@@ -44,7 +44,7 @@ extension UserDefaults {
     }
     
     func getMessageToUse() -> String {
-        return UserDefaultKeys.messageToUse.rawValue
+        return string(forKey: UserDefaultKeys.messageToUse.rawValue) ?? "default"
     }
 }
 
