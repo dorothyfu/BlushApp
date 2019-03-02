@@ -23,12 +23,13 @@ class ChangeMessageViewController: UIViewController {
     }
     
     @IBAction func onSaveClicked(_ sender: Any) {
-            let message = messageTextField.text
+        let message = messageTextField.text
         UserDefaults.standard.setCustomMessage(message: message!)
         UserDefaults.standard.setMessageToUse(key: "custom")
         
-        UserDefaults.standard.synchronize()
-        print("it works")
+        print(UserDefaults.standard.getCustomMessage())
+        print(UserDefaults.standard.getMessageToUse())
+        
     }
     
     @IBAction func onResetClicked(_ sender: Any) {
