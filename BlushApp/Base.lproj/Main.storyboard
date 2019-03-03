@@ -580,7 +580,6 @@
                                         <state key="normal" title="Done"/>
                                         <connections>
                                             <action selector="onTimeNextClicked:" destination="klL-hO-aFM" eventType="touchUpInside" id="EZ3-1D-a8d"/>
-                                            <segue destination="ywH-ho-5WN" kind="show" id="3sT-iA-jR3"/>
                                         </connections>
                                     </button>
                                     <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="8GG-Yz-1P7">
@@ -655,7 +654,4 @@
         <image name="calendarIcon.png" width="100" height="100"/>
         <image name="pillsIcon.png" width="100" height="100"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="3sT-iA-jR3"/>
-    </inferredMetricsTieBreakers>
 </document>

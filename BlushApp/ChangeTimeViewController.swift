@@ -37,6 +37,10 @@ class ChangeTimeViewController: UIViewController {
         
         UserDefaults.didPassOnboarding()
         UserDefaults.standard.synchronize()
+        
+        if let navController = self.navigationController {
+            navController.popViewController(animated: true)
+        }
     }
 
     override func viewDidLoad() {
