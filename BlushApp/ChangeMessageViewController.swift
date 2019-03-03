@@ -27,8 +27,15 @@ class ChangeMessageViewController: UIViewController {
         UserDefaults.standard.setCustomMessage(message: message!)
         UserDefaults.standard.setMessageToUse(key: "custom")
         
-        print(UserDefaults.standard.getCustomMessage())
-        print(UserDefaults.standard.getMessageToUse())
+        // Set up notifications
+        let notificationSettings = UIUserNotificationSettings(
+            types: [.badge, .sound, .alert], categories: nil)
+        UIApplication.shared.registerUserNotificationSettings(notificationSettings)
+        scheduleNotification()
+        
+        if let navController = self.navigationController {
+            navController.popViewController(animated: true)
+        }
         
     }
     
