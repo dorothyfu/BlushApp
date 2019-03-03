@@ -539,10 +539,15 @@
                         <viewLayoutGuide key="safeArea" id="zGX-83-L3i"/>
                     </view>
                     <navigationItem key="navigationItem" id="zyy-zE-ae6">
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="b6k-U6-Ojc"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="b6k-U6-Ojc">
+                            <connections>
+                                <action selector="onSaveClicked:" destination="l74-mD-D1T" id="Aw7-kv-WXT"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="messageTextField" destination="BIv-TZ-SD2" id="hoF-0T-WKl"/>
+                        <outlet property="saveButton" destination="b6k-U6-Ojc" id="0gi-HQ-lVd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M4F-1h-Sbw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -651,6 +656,6 @@
         <image name="pillsIcon.png" width="100" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aot-lg-6Fp"/>
+        <segue reference="3sT-iA-jR3"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -12,7 +12,6 @@ class ChangeTimeViewController: UIViewController {
     var hour = -1
     var minute = -1
     
-    @IBOutlet weak var cancelButton: UIBarButtonItem!
     @IBOutlet weak var timePickerLabel: allLabels!
     
     @IBOutlet weak var timePickerNextButton: UIButton!
