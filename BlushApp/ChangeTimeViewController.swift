@@ -45,7 +45,7 @@ class ChangeTimeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = GlobalUIVariables.backgroundColorPink
+        self.view.backgroundColor = GlobalUIVariables.settingsBackgroundColorPink
         timePicker.setValue(UIColor.white, forKeyPath: "textColor")
     }
     

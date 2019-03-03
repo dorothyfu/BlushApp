@@ -22,7 +22,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         dayLabel.text = "Day" + " " + String(UserDefaults.standard.getCurrentDay())
         pillsLeftLabel.text = displayNumberHome() + " " + displayTextHome()
-        self.view.backgroundColor = GlobalUIVariables.pinkThree
+        self.view.backgroundColor = GlobalUIVariables.homePink
         let calendarImage = UIImage(named: "calendarIcon.png")
         calendarIcon.image = calendarImage
     }

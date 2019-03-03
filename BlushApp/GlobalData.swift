@@ -108,6 +108,6 @@ class GradientView: UIView {
 }
 
 struct GlobalUIVariables {
-    static var backgroundColorPink = UIColor(red: 240.0/255.0, green: 178.0/255.0, blue: 173.0/255.0, alpha: 1)
-    static var pinkThree = UIColor(red: 242.0/255.0, green: 211.0/255.0, blue: 197.0/255.0, alpha: 1)
+    static var settingsBackgroundColorPink = UIColor(red: 240.0/255.0, green: 178.0/255.0, blue: 173.0/255.0, alpha: 1)
+    static var homePink = UIColor(red: 242.0/255.0, green: 211.0/255.0, blue: 197.0/255.0, alpha: 1)
 }

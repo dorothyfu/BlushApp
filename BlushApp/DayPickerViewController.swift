@@ -59,7 +59,7 @@ class DayPickerViewController: UIViewController, UIPickerViewDelegate, UIPickerV
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = GlobalUIVariables.backgroundColorPink
+        self.view.backgroundColor = GlobalUIVariables.settingsBackgroundColorPink
         dayPicker.delegate = self
         dayPicker.dataSource = self
     }
